@@ -1,5 +1,5 @@
 {
-  "name": "@nuxtjs/recaptcha",
+  "name": "@pardjs/recaptcha-nuxt",
   "version": "0.2.2",
   "description": "Simple and easy Google reCAPTCHA integration with Nuxt.js",
   "keywords": [

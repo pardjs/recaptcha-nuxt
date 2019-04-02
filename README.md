@@ -1,5 +1,9 @@
 # Google reCAPTCHA
 
+Forked from [nuxt-community/recaptcha-module](https://github.com/nuxt-community/recaptcha-module)
+
+**Used `recaptcha.net` replace `google.com` to avoid the forbiden with GFW**
+
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![Circle CI][circle-ci-src]][circle-ci-href]
@@ -13,19 +17,20 @@
 
 ## Setup
 
-1. Add `@nuxtjs/recaptcha` dependency with `yarn` or `npm` into your project
-2. Add `@nuxtjs/recaptcha` to `modules` section of `nuxt.config.js`
+1. Add `@padjs/recaptcha-nuxt` dependency with `yarn` or `npm` into your project
+2. Add `@padjs/recaptcha-nuxt` to `modules` section of `nuxt.config.js`
 3. Configure it:
 
 ```js
 {
   modules: [
     [
-      '@nuxtjs/recaptcha', {
+      "@padjs/recaptcha-nuxt",
+      {
         /* reCAPTCHA options */
       }
-    ],
-  ]
+    ]
+  ];
 }
 ```
 
@@ -34,7 +39,7 @@ using top level options
 ```js
 {
   modules: [
-    '@nuxtjs/recaptcha',
+    '@padjs/recaptcha-nuxt',
   ],
 
   recaptcha: {
@@ -70,6 +75,7 @@ using top level options
 Copyright (c) mvrlin <mvrlin@pm.me>
 
 <!-- Badges -->
+
 [npm-version-src]: https://img.shields.io/npm/dt/@nuxtjs/recaptcha.svg?style=flat-square
 [npm-version-href]: https://npmjs.com/package/@nuxtjs/recaptcha
 [npm-downloads-src]: https://img.shields.io/npm/v/@nuxtjs/recaptcha/latest.svg?style=flat-square

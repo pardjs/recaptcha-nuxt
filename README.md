@@ -17,15 +17,15 @@ Forked from [nuxt-community/recaptcha-module](https://github.com/nuxt-community/
 
 ## Setup
 
-1. Add `@padjs/recaptcha-nuxt` dependency with `yarn` or `npm` into your project
-2. Add `@padjs/recaptcha-nuxt` to `modules` section of `nuxt.config.js`
+1. Add `@pardjs/recaptcha-nuxt` dependency with `yarn` or `npm` into your project
+2. Add `@pardjs/recaptcha-nuxt` to `modules` section of `nuxt.config.js`
 3. Configure it:
 
 ```js
 {
   modules: [
     [
-      "@padjs/recaptcha-nuxt",
+      "@pardjs/recaptcha-nuxt",
       {
         /* reCAPTCHA options */
       }
@@ -39,7 +39,7 @@ using top level options
 ```js
 {
   modules: [
-    '@padjs/recaptcha-nuxt',
+    '@pardjs/recaptcha-nuxt',
   ],
 
   recaptcha: {
